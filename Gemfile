@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 group :development do
-  gem 'sqlite3', '1.3.5'
+# gem 'sqlite3'
+	gem 'activerecord-jdbcsqlite3-adapter', :require => 'jdbc-sqlite3', :require =>'arjdbc'
 end
 
 
